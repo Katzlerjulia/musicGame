@@ -1,0 +1,393 @@
+[
+  {
+    "Artist": "Abba"
+  },
+  {
+    "Artist": "Selena Gomez"
+  },
+  {
+    "Artist": "Kanye West"
+  },
+  {
+    "Artist": "Taylor Swift"
+  },
+  {
+    "Artist": "Ed Sheeran"
+  },
+  {
+    "Artist": "Lewis Capaldi"
+  },
+  {
+    "Artist": "Post Malone"
+  },
+  {
+    "Artist": "Chainsmokers"
+  },
+  {
+    "Artist": "Shawn Mendez"
+  },
+  {
+    "Artist": "Imagine Dragons"
+  },
+  {
+    "Artist": "Camila Cabello"
+  },
+  {
+    "Artist": "James Arthur"
+  },
+  {
+    "Artist": "Billie Eilish"
+  },
+  {
+    "Artist": "The Weeknd"
+  },
+  {
+    "Artist": "Dua Lipa"
+  },
+  {
+    "Artist": "Queen"
+  },
+  {
+    "Artist": "Lady Gaga"
+  },
+  {
+    "Artist": "Hozier"
+  },
+  {
+    "Artist": "Ariana Grande"
+  },
+  {
+    "Artist": "Travis Scott"
+  },
+  {
+    "Artist": "Harry Styles"
+  },
+  {
+    "Artist": "Avicii"
+  },
+  {
+    "Artist": "Kendrick Lamar"
+  },
+  {
+    "Artist": "Passenger"
+  },
+  {
+    "Artist": "Vance Joy"
+  },
+  {
+    "Artist": "Justin Bieber"
+  },
+  {
+    "Artist": "Olivia Rodrigo"
+  },
+  {
+    "Artist": "Sam Smith"
+  },
+  {
+    "Artist": "Mike Posner"
+  },
+  {
+    "Artist": "Maroon 5"
+  },
+  {
+    "Artist": "The Killers"
+  },
+  {
+    "Artist": "BTS"
+  },
+  {
+    "Artist": "Bruno Mars"
+  },
+  {
+    "Artist": "Elvis Prisely"
+  },
+  {
+    "Artist": "Nicki Minaj"
+  },
+  {
+    "Artist": "Doja Cat"
+  },
+  {
+    "Artist": "Eminem"
+  },
+  {
+    "Artist": "Zara Larsson"
+  },
+  {
+    "Artist": "Timbaland"
+  },
+  {
+    "Artist": "Katy Perry"
+  },
+  {
+    "Artist": "Kesha"
+  },
+  {
+    "Artist": "Miley Cyrus"
+  },
+  {
+    "Artist": "Diana Ross"
+  },
+  {
+    "Artist": "Whitney Houston"
+  },
+  {
+    "Artist": "Destinys Child"
+  },
+  {
+    "Artist": "Little Mix"
+  },
+  {
+    "Artist": "Lana Del Rey"
+  },
+  {
+    "Artist": "French Montana"
+  },
+  {
+    "Artist": "Lil Nas"
+  },
+  {
+    "Artist": "One Direction"
+  },
+  {
+    "Artist": "Red Hot Chili Peppers"
+  },
+  {
+    "Artist": "Dr Dre"
+  },
+  {
+    "Artist": "Coldplay"
+  },
+  {
+    "Artist": "Black Eyed Peace"
+  },
+  {
+    "Artist": "NIall Horan"
+  },
+  {
+    "Artist": "Zayn Malik"
+  },
+  {
+    "Artist": "Sia"
+  },
+  {
+    "Artist": "Roddy Ricch"
+  },
+  {
+    "Artist": "Avril Lavigne"
+  },
+  {
+    "Artist": "Rihanna"
+  },
+  {
+    "Artist": "Spice girls"
+  },
+  {
+    "Artist": "Beyonce"
+  },
+  {
+    "Artist": "Fergie"
+  },
+  {
+    "Artist": "Maria Carey"
+  },
+  {
+    "Artist": "Gwen Stefani"
+  },
+  {
+    "Artist": "Demi Lovato"
+  },
+  {
+    "Artist": "Pink"
+  },
+  {
+    "Artist": "Robyn"
+  },
+  {
+    "Artist": "Nelly Furtado"
+  },
+  {
+    "Artist": "Blackpink"
+  },
+  {
+    "Artist": "Linkin Park"
+  },
+  {
+    "Artist": "Green Day"
+  },
+  {
+    "Artist": "Duft Punk"
+  },
+  {
+    "Artist": "Masego"
+  },
+  {
+    "Artist": "Russ"
+  },
+  {
+    "Artist": "David Guetta"
+  },
+  {
+    "Artist": "Usher"
+  },
+  {
+    "Artist": "Taio Cruz"
+  },
+  {
+    "Artist": "Jason Derulo"
+  },
+  {
+    "Artist": "Mika"
+  },
+  {
+    "Artist": "Psy"
+  },
+  {
+    "Artist": "Basshunter"
+  },
+  {
+    "Artist": "50 cent"
+  },
+  {
+    "Artist": "Outkast"
+  },
+  {
+    "Artist": "Joey Badass"
+  },
+  {
+    "Artist": "Måneskin"
+  },
+  {
+    "Artist": "Khalid"
+  },
+  {
+    "Artist": "DJ Khalid"
+  },
+  {
+    "Artist": "Ty Dolla $ign"
+  },
+  {
+    "Artist": "J Balwin"
+  },
+  {
+    "Artist": "One republic"
+  },
+  {
+    "Artist": "Tygah"
+  },
+  {
+    "Artist": "Rhove"
+  },
+  {
+    "Artist": "Stromae"
+  },
+  {
+    "Artist": "Tom Odell"
+  },
+  {
+    "Artist": "Meghan Trainor"
+  },
+  {
+    "Artist": "Drake"
+  },
+  {
+    "Artist": "Central Cee"
+  },
+  {
+    "Artist": "J. Cole"
+  },
+  {
+    "Artist": "Robin Schulz"
+  },
+  {
+    "Artist": "Calvin Harris"
+  },
+  {
+    "Artist": "Rosa Linn"
+  },
+  {
+    "Artist": "Adele"
+  },
+  {
+    "Artist": "Christina Aguilera"
+  },
+  {
+    "Artist": "High School Musical"
+  },
+  {
+    "Artist": "Alicia Keys"
+  },
+  {
+    "Artist": "Madcon"
+  },
+  {
+    "Artist": "Macklemore"
+  },
+  {
+    "Artist": "Kings Of Leon"
+  },
+  {
+    "Artist": "Madonna"
+  },
+  {
+    "Artist": "Britney Spears"
+  },
+  {
+    "Artist": "Leona Lewis"
+  },
+  {
+    "Artist": "Alan Walker"
+  },
+  {
+    "Artist": "Will.I.Am"
+  },
+  {
+    "Artist": "Soulja Boy"
+  },
+  {
+    "Artist": "Becky G"
+  },
+  {
+    "Artist": "Sean Kingston"
+  },
+  {
+    "Artist": "Pitbull"
+  },
+  {
+    "Artist": "Sugababes"
+  },
+  {
+    "Artist": "Westlife"
+  },
+  {
+    "Artist": "Backstreet Boys"
+  },
+  {
+    "Artist": "Shakira"
+  },
+  {
+    "Artist": "Ludacris"
+  },
+  {
+    "Artist": "Cascada"
+  },
+  {
+    "Artist": "Arctic Monkeys"
+  },
+  {
+    "Artist": "Kiss"
+  },
+  {
+    "Artist": "Flo Rida"
+  },
+  {
+    "Artist": "Andreas Moe"
+  },
+  {
+    "Artist": "Chris Brown"
+  },
+   {
+     "Artist": "Dido"
+   }
+
+]

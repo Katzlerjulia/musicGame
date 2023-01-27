@@ -11,19 +11,35 @@
 <header>
   <nav class="navbar">
  <ul>
-  <li class="logo">musicGame</li>
-  <li class="rule">Rules</li>
+  <li class="logo"> <a href="index.html">thatMusicShuffleGame</a></li>
+  <li class="rule"> <a href="rules.html">rules</a></li>
+  <li> <button class="darkmode" id="toggle-btn">mode</button> </li>
  </ul>
 </nav>
 </header>
 <main>
+  <h1 id="getArtists">Are you ready to play a game? <br>
+     If this is your first time playing I suggest you to check out the rules first!
+  </h1>
   <div class="buttonDiv">
   <button type="btn" id="play" onclick="startGame()">Start Game</button>
-  <button type="btn" id="getNew" onclick="refresh()">New artist</button>
-
+  <button type="btn" id="getNew" onclick="getNewArtist()">New artist</button>
   </div>
-  <div class="theGame"></div>
 </main>
+
+<div class="scoreButtons">
+  <button class="counterButton1">0</button>
+  <button class="counterButton2">0</button>
+  <button class="counterButton3">0</button>
+  <button class="counterButton4">0</button>
+  <button class="counterButton5">0</button>
+  <button class="counterButton6">0</button>
+
+</div>
+
+<footer>
+    <p> <i> This is just for fun</i></p>
+</footer>
   <script src="index.js"></script>
 </body>
 </html>
