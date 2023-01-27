@@ -4,9 +4,34 @@ body {
   background-color: #9D70DD;
   font-family: sans-serif;
 }
+
+.darkmode {
+  background-color: #252525;
+  color: #BAE1FF;
+  border-radius: 7px;
+  border: none;
+  padding-left: 20px ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+body.dark-mode {
+    background-color: #252525;
+    color: white;
+}
+
+body.dark-mode #getArtists {
+  color: white;
+}
+
+
 .navbar {
   color: white;
 }
+
+
 
 .navbar .logo {
   font-size: 3em;
@@ -14,8 +39,9 @@ body {
 
 .navbar .rule {
   font-size: 1.5em;
-  margin-right: 40px;
   margin-top: 20px;
+  margin-right: -15em;
+
 }
 .navbar ul {
 list-style: none;
@@ -23,10 +49,27 @@ display: flex;
 justify-content: space-between;
 }
 
+.navbar a {
+  color: azure;
+text-decoration: none;
+
+}
+.navbar a:hover {
+  color: #55d5a0;
+}
+
+#getArtists {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15em;
+  color: #252525;
+
+}
+
 .buttonDiv {
   display: flex;
   justify-content: center;
-  margin-top: 20em
 }
 
 #play {
@@ -40,4 +83,113 @@ justify-content: space-between;
   font-size: 16px;
   font-size: larger;
   border-radius: 7px;
+  cursor: pointer;
+}
+
+#getNew {
+   background-color: #55d5a0;
+  border: none;
+  color: #252525;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 3em;
+  border-radius: 7px;
+  cursor: pointer;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*rules site*/
+
+.centeredRules {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  color: #252525;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  color: #252525;
+}
+
+.scoreButtons{
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.counterButton1{
+  background-color: #FFB3BA;
+  border: none;
+  color: #252525;
+  font-size: large;
+  margin: .5em;
+   width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.counterButton2 {
+  background-color: #BAFFC9;
+  border: none;
+  color: #252525;
+  font-size: large;
+  margin: .5em;
+   width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.counterButton3 {
+  background-color: #FFFFBA;
+  border: none;
+  color: #252525;
+  font-size: large;
+  margin: .5em;
+   width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.counterButton4 {
+  background-color: #FFB47A;
+  border: none;
+  color: #252525;
+  font-size: large;
+  margin: .5em;
+   width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.counterButton5 {
+  background-color: #BAE1FF;
+  border: none;
+  color: #252525;
+  font-size: large;
+  margin: .5em;
+   width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.counterButton6 {
+  background-color: white;
+  border: none;
+  color: #252525;
+  font-size: large;
+  margin: .5em;
+   width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
