@@ -1,0 +1,43 @@
+
+
+body {
+  background-color: #9D70DD;
+  font-family: sans-serif;
+}
+.navbar {
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 3em;
+}
+
+.navbar .rule {
+  font-size: 1.5em;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.navbar ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20em
+}
+
+#play {
+   background-color: #55d5a0;
+  border: none;
+  color: navy;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-size: larger;
+  border-radius: 7px;
+}
