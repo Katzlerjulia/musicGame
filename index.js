@@ -1,4 +1,35 @@
-const startButton = document.getElementById("play");
+// timer
+
+let time = 60;
+let interval;
+
+const timer = document.getElementById("time");
+const buttonStart = document.getElementById("start");
+const stopButton = document.getElementById("stop");
+
+buttonStart.addEventListener("click", startTimer);
+stopButton.addEventListener("click", stopTimer);
+
+function startTimer() {
+  interval = setInterval(function () {
+    time--;
+    timer.innerHTML = time;
+    if (time === 0) {
+      stopTimer();
+      alert("Time's up!");
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(interval);
+}
+
+
+
+// fetch funktionen och textContent
+
+const startButton = document.getElementById("play")
 const getArtists = document.getElementById("getArtists");
 const getNew = document.getElementById("getNew");
 let artists = [];
@@ -14,8 +45,8 @@ fetch("data.json")
 function getNewArtist() {
   const randomArtist = artists[Math.floor(Math.random() * artists.length)].Artist;
    getArtists.textContent = randomArtist;
-   getArtists.style.fontSize = '100px'
-   getArtists.style.marginTop = '3em'
+   getArtists.style.fontSize = '6em'
+   getArtists.style.marginTop = '1.5em'
 }
 
 function startGame() {
@@ -29,20 +60,50 @@ function startGame() {
    })
 }
 
+
+
 getNew.addEventListener('click', getNewArtist)
 
-var buttons = document.querySelectorAll(
+
+
+//Score buttons
+
+//count up and localstorage
+const buttons = document.querySelectorAll(
   ".counterButton1, .counterButton2, .counterButton3, .counterButton4, .counterButton5, .counterButton6"
 );
 
-// Loop through each button
-for (var i = 0; i < buttons.length; i++) {
-  // Add a click event listener to the button
+for (let i = 0; i < buttons.length; i++) {
+  const storedScore = sessionStorage.getItem(buttons[i].className);
+  if (storedScore) {
+    buttons[i].innerHTML = storedScore;
+  }
   buttons[i].addEventListener("click", function () {
-    // Increment the button's text content by 1
     this.innerHTML = parseInt(this.innerHTML) + 1;
+    sessionStorage.setItem(this.className, this.innerHTML);
   });
 }
+
+
+
+
+//Decreasing buttons (right click)
+const buttonsDown = document.querySelectorAll(
+  ".counterButton1, .counterButton2, .counterButton3, .counterButton4, .counterButton5, .counterButton6"
+);
+
+for (let i = 0; i < buttonsDown.length; i++) {
+  buttonsDown[i].addEventListener("contextmenu", function (event) {
+    event.preventDefault();
+    this.innerHTML = parseInt(this.innerHTML) - 1;
+    sessionStorage.setItem(this.className, this.innerHTML);
+  });
+}
+
+
+
+
+// Darkmode
 
 let toggleBtn = document.getElementById("toggle-btn");
 
