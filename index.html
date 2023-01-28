@@ -5,19 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"/>
+  <link href='https://css.gg/dark-mode.css' rel='stylesheet'>
   <title>musicGame</title>
 </head>
 <body>
 <header>
   <nav class="navbar">
+
  <ul>
   <li class="logo"> <a href="index.html">thatMusicShuffleGame</a></li>
   <li class="rule"> <a href="rules.html">rules</a></li>
-  <li> <button class="darkmode" id="toggle-btn">mode</button> </li>
+  <li> <i id="toggle-btn" class="gg-dark-mode"></i> </li>
  </ul>
 </nav>
 </header>
 <main>
+
+  <div class="timer">
+  <div id="time">60</div>
+  <div class="buttons">
+    <button id="start">Start</button>
+    <button class="red" id="stop">Stop</button>
+  </div>
+</div>
+
+
   <h1 id="getArtists">Are you ready to play a game? <br>
      If this is your first time playing I suggest you to check out the rules first!
   </h1>
@@ -37,9 +49,6 @@
 
 </div>
 
-<footer>
-    <p> <i> This is just for fun</i></p>
-</footer>
   <script src="index.js"></script>
 </body>
 </html>
