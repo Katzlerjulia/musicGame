@@ -43,11 +43,13 @@ fetch("data.json")
   });
 
 function getNewArtist() {
-  const randomArtist = artists[Math.floor(Math.random() * artists.length)].Artist;
+
+const randomArtist = artists[Math.floor(Math.random() * artists.length)].Artist;
    getArtists.textContent = randomArtist;
    getArtists.style.fontSize = '6em'
    getArtists.style.marginTop = '1.5em'
 }
+
 
 function startGame() {
   getNewArtist();
@@ -110,3 +112,15 @@ let toggleBtn = document.getElementById("toggle-btn");
 toggleBtn.addEventListener("click", function () {
   document.body.classList.toggle("dark-mode");
 });
+
+
+
+
+
+
+/*function getNewArtist() {
+  const randomArtist = artists[Math.floor(Math.random() * artists.length)].Artist;
+   getArtists.textContent = randomArtist;
+   getArtists.style.fontSize = '6em'
+   getArtists.style.marginTop = '1.5em'
+} */
