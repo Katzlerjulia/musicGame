@@ -104,28 +104,6 @@ text-decoration: none;
   color: #55d5a0;
 }
 
-
-/*Timer */
-
-.timer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10em;
-}
-
-#time {
-  font-size: 40px;
-  margin-bottom: 10px;
-  color: #252525;
-  background-color: white;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: .5em;
-  padding-bottom: .5em;
-  border-radius: 7px;
-}
-
 .buttons {
   display: flex;
   justify-content: center;
@@ -156,7 +134,7 @@ button {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 5em;
+  margin-top: 11em;
   color: #252525;
 
 }
