@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"/>
-  <title>musicGame</title>
-</head>
-<body>
-<header>
-  <nav class="navbar">
- <ul>
-  <li class="logo"> <a href="index.html">thatMusicShuffleGame</a></li>
-  <li class="rule"> <a href="rules.html">rules</a></li>
-  <li> <button class="darkmode" id="toggle-btn">mode</button> </li>
- </ul>
-</nav>
-</header>
-<main>
-  <h1 id="getArtists">Are you ready to play a game? <br>
-     If this is your first time playing I suggest you to check out the rules first!
-  </h1>
-  <div class="buttonDiv">
-  <button type="btn" id="play" onclick="startGame()">Start Game</button>
-  <button type="btn" id="getNew" onclick="getNewArtist()">New artist</button>
-  </div>
-</main>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://css.gg/dark-mode.css" rel="stylesheet" />
+        <title>musicGame</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li class="logo">
+                        <a href="index.html">thatMusicShuffleGame</a>
+                    </li>
+                    <li class="rule"><a href="rules.html">rules</a></li>
+                    <li><i id="toggle-btn" class="gg-dark-mode"></i></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="getArtists">
+                Are you ready to play a game? <br />
+                If this is your first time playing I suggest you to check out
+                the rules first!
+            </h1>
+            <div class="buttonDiv">
+                <button type="btn" id="play" onclick="startGame()">
+                    Start Game
+                </button>
+                <button type="btn" id="getNew" onclick="getNewArtist()">
+                    New artist
+                </button>
+            </div>
+        </main>
 
-<div class="scoreButtons">
-  <button class="counterButton1">0</button>
-  <button class="counterButton2">0</button>
-  <button class="counterButton3">0</button>
-  <button class="counterButton4">0</button>
-  <button class="counterButton5">0</button>
-  <button class="counterButton6">0</button>
+        <div class="scoreButtons">
+            <button class="counterButton1">0</button>
+            <button class="counterButton2">0</button>
+            <button class="counterButton3">0</button>
+            <button class="counterButton4">0</button>
+            <button class="counterButton5">0</button>
+            <button class="counterButton6">0</button>
+        </div>
 
-</div>
-
-<footer>
-    <p> <i> This is just for fun</i></p>
-</footer>
-  <script src="index.js"></script>
-</body>
+        <script src="index.js"></script>
+    </body>
 </html>
