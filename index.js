@@ -1,4 +1,3 @@
-
 /*const startButton = document.getElementById("play");
 const getArtists = document.getElementById("getArtists");
 const getNew = document.getElementById("getNew");
