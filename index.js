@@ -1,4 +1,9 @@
+/*const startButton = document.getElementById("play");
+const getArtists = document.getElementById("getArtists");
+const getNew = document.getElementById("getNew");
+let artists = [];
 // fetch funktionen och textContent (fisher yates algoritm)
+
 
 const startButton = document.getElementById('play')
 const getArtists = document.getElementById('getArtists')
@@ -31,6 +36,40 @@ function shuffleArray(array) {
 }
 
 function getNewArtist() {
+
+  const randomArtist = artists[Math.floor(Math.random() * artists.length)].Artist;
+   getArtists.textContent = randomArtist;
+   getArtists.style.fontSize = '100px'
+   getArtists.style.marginTop = '3em'
+}*/
+
+const startButton = document.getElementById("play");
+const getArtists = document.getElementById("getArtists");
+const getNew = document.getElementById("getNew");
+let artists = [];
+let currentIndex = 0;
+
+getNew.style.display = "none";
+
+fetch("data.json")
+  .then((response) => response.json())
+  .then((result) => {
+    artists = result;
+  });
+
+function getNewArtist() {
+  if (currentIndex < artists.length) {
+    const currentArtist = artists[currentIndex].Artist;
+    getArtists.textContent = currentArtist;
+    getArtists.style.fontSize = "100px";
+    getArtists.style.marginTop = "3em";
+    currentIndex++; // Increment the currentIndex for the next artist
+  } else {
+    // If last index is reached, reset currentIndex to 0 to repeat the list
+    currentIndex = 0;
+    getNewArtist(); // Fetch the first artist again
+  }
+
     artists = shuffleArray(artists)
 
     const randomArtist = artists.shift()
@@ -40,7 +79,11 @@ function getNewArtist() {
     getArtists.textContent = randomArtist
     getArtists.style.fontSize = '6em'
     getArtists.style.marginTop = '1.5em'
+
 }
+
+getNew.addEventListener("click", getNewArtist);
+
 
 function startGame() {
     getNewArtist()
